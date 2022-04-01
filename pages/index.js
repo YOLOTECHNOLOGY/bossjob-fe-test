@@ -8,8 +8,8 @@ export default function Home() {
 		<div className={styles.app}>
 			<div className={styles.appWrapper}>
 				<Header />
+				<Search />
 				<div style={{ padding: '10px 20px' }}>
-					<Search />
 					<JobsList />
 				</div>
 			</div>

@@ -1,0 +1,23 @@
+.container {
+	margin: 0;
+	width: 100%;
+	height: 50%;
+	padding-top: 1em;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.wrapper {
+	position: relative;
+	display: flex;
+}
+
+.wrapper Image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.wrapper input {
+	border: none;
+	width: 80%;
+}

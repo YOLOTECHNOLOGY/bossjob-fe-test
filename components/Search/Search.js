@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from './Search.module.css';
 import SearchBar from './SearchBar';
 import FilterButton from './FilterButton';
 
 const Search = () => {
 	return (
-		<div>
+		<div className={classes.container}>
 			<SearchBar />
 			<FilterButton />
 		</div>
